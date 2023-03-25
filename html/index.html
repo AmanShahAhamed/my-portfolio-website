@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button id="humIcon"><img src="/static/134216_menu_lines_hamburger_icon.png" alt="" height="25px" width="30px"></button>
+       <div class="heading">
+        <button id="btn_close"><img src="/static/211652_close_icon.png" alt="" height="25px" width="30px"> </button>
+        <nav>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tech">Technologies</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#connect">Connect</a></li>
+           <li> <button id="btn_download_csv2" onclick="downloadCV()">Download Cv</button></li>
+        </nav>
+        <button id="btn_download_csv" onclick="downloadCV()">Download Cv</button>
+       </div>
+       <div class="photo_intro">
+
+        <div class="intro">
+            <p  id="into_firstLine">_____Full Stack Developer/Nest Js Expert</p> <br><br>
+            <p  id="inro_hello">Hello There! </p>
+            <p class="name">I'<p class="name" style="color: green;">m</p><p class="name"> &nbsp Aman Shah Ahamed</p> </p>
+            <p>I'm a full stack developer nest js Expert.I enjoy building everything from small business sites to rich interactive web app. </p>
+            <button id="btn_connect">Let's Connect</button>
+        </div>
+        <div class="photo">
+            <img src="/static/photo2.jpeg" alt="Aman Shah Ahamed" height="340px">
+        </div>
+       </div>
+    </div>
+    <div class="skill_container" id="skills">
+        <div class="experience">
+            <div class="experience_heading">
+                <h1>Skillsand</h1>
+                <h1>Experience</h1>
+            </div>
+
+            <div class="experience_content">
+                Junior Front-End Web Developer | Software Developer technician | HTML/CSS/javascript/Node js/Nest js/React js/ tests user interface element of website and app
+            </div>
+
+            <div class="experice_description">
+            
+                <li>Design develop,test and integrate of custom web applications</li>
+                <li>Writing Api for backend</li>
+                <li>Integrate third party api</li>
+                <li>Coordinate with front end team </li>
+                <li>Writing Unit test </li>
+            
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill_percentage">
+               
+                    
+                        <h3 >Front-End</h1>
+                        <div class="percentage_div">
+                            <div class="frontend_percent"></div>
+                        </div>
+                    
+                   
+                        <h3>Back-End</h1>
+                        <div class="percentage_div">
+                            <div class="backend_percent"></div>
+                        </div>
+                   
+                
+                        <h3>Database</h1>
+                        <div class="percentage_div">
+                            <div class="database_percent"></div>
+                        </div>
+                    
+                   
+                        <h3>Web Design</h1>
+                        <div class="percentage_div">
+                        <div class="webdesign_percent"></div></div>
+                  
+              
+            </div>
+            <div class="skill_experience">
+                <div>
+                   <h1>Software Engineer</h1>
+                   <h3>JellyFish Technology (Noida)</h3>
+                   <h5>1-july-2022 | Present</h5>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="technology" id="tech">
+        <h1>Technologies</h1>
+       <div class="tech_technology">
+        <div class="tech_info">
+            <div class="tech_database">
+                 DATABASE
+            </div>
+            <li>
+               RDMS
+           </li>
+           <li>
+               SQLSERVER/MYSQL
+           </li>
+           <li>
+               MONGODB
+           </li> 
+       </div>
+
+       <div class="tech_info">
+           <div class="tech_database">
+                BACKEND
+           </div>
+           <li>
+              NEST JS
+          </li>
+          <li>
+             NODE JS
+          </li>
+          <li>
+             javaScript/typeScript
+          </li> 
+      </div>
+
+      <div class="tech_info">
+       <div class="tech_database">
+            FRONT-END
+       </div>
+       <li>
+          HTML/CSS
+      </li>
+      <li>
+        REACT
+      </li>
+      <li>
+         SCSS/BOOTSTRAP
+      </li> 
+  </div>
+       </div>
+    </div>
+    <div class="get_in_touch">
+        <h1>Get In Touch</h1>
+        <div class="touch_content">
+            <p>my inbox is always open.whether you have a question or just want to say hi, i'll try my best to get back to to you </p>
+        </div>
+        <button id="say_hii" >Say Hii</button>
+    </div>
+
+    <div class="education" id="education">
+        <h1 id="educationHeading">Education</h1>
+        <div class="major">
+            <h1>Master of Computer Application</h1>
+            <h5>2020 -2022</h6>
+                <p>Jamia Millia Islamia New Delhi</p>
+        </div>
+        <div class="major" id="minor">
+            <h1>Bachelor of Science (Mathematics)</h1>
+            <h5>2016 -2019</h6>
+                <p>Chhatrpati Sahuji Maharaj University (Kanpur)</p>
+        </div>
+    </div>
+
+    <div class="connect_us" id="connect">
+        <h1 id="connecting_heading">Connect Us</h1>
+       <div class="mail">
+        <div class="connect_form">
+            <form action="https://formspree.io/f/xpzejkwg" id="myform" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="input_box"  id="email_name">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="input_box" id="email_email" >
+                <label for="message">Message</label>
+                <input type="text" name="message" class="input_box"  id="email_message
+                ">
+                <p id="my-form-status"></p>
+                <button type="submit"  > Connect Us</button>
+            </form>
+        </div>
+
+        <div class="connecting_info">
+            <div class="info">
+                <h1>Email</h1>
+                <h5>moaslam826@mail.com</h5>
+            </div>
+            <div class="info">
+                <h1>Phone</h1>
+                <h5>+91-638-795-9740</h5>
+            </div>
+            <div class="link">
+                <a href="https://m.facebook.com/100010730702119/"><img src="/static/fb.png" alt="" height="50px" ></a>
+                <a href="https://instagram.com/amanshah99198?igshid=YmMyMTA2M2Y="><img src="/static/instagram.png" alt=""  height="50px"></a>
+                <a href="https://github.com/AmanShahAhamed"><img src="/static/github.png" alt=""  height="50px"></a>
+                <a href="https://www.linkedin.com/in/aman-shah-ahamed-226a2720b"><img src="/static/linkdin3.png" alt=""  height="50px"></a>
+
+            </div>
+        </div>
+       </div>
+    </div>
+<script src="/js/index.js"></script>
+</body>
+</html>

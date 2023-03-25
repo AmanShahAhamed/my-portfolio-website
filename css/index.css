@@ -1,0 +1,732 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    background-color:rgb(237, 232, 227);
+   
+}
+
+/* heading css */
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+nav{
+    flex-grow: 8;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 3%;
+   
+ 
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly ;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+nav li a:hover{
+    color: #513B1C;
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration:underline
+}
+
+#btn_download_csv{
+    background-color: gold;
+    border: none;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5%;
+}
+#btn_download_csv2{display: none;}
+#btn_download_csv:hover{
+    background-color: rgb(60, 209, 60);
+    color: white;
+}
+/* **************************** */
+
+/* about and photo css */
+.photo_intro{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.photo{
+    object-fit: fill;
+    margin-top: 10%;
+}
+
+.intro{
+    padding-left: 5%;
+}
+.name{
+    font-size: 50px; font-weight:bolder;
+    display: inline-block;
+}
+
+#into_firstLine{
+    font-size: 20px; font-weight: 600;
+}
+#inro_hello{
+    font-size: 50px; 
+    font-weight:bolder;
+}
+
+#btn_connect{
+    background-color: gold;
+    border: none;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#btn_connect:hover{
+    background-color: rgb(60, 209, 60);
+    color: white;
+}
+
+#humIcon{
+    cursor: pointer;
+    background-color: transparent;
+    margin: 5%;
+    border: none;
+    display: none;
+
+}
+#btn_close{
+    display: none;
+}
+
+/* ************************************* */
+
+
+/* skills and experience*/
+.skill_container{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.experience{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.experience  h1{
+  color: rgb(218, 190, 32);
+  font-weight: bolder;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience_content{
+    color: white;
+    font-size: 23px;
+    line-height: 42px;
+    margin-top: 5%;
+    max-width: 50%;
+}
+
+.experice_description{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 15%; 
+
+}
+.experice_description  li{
+    list-style:square;
+    padding-top:   4%;
+    font-size: 24px; 
+}
+
+
+
+.skill{ 
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: centers;
+    width: 50%;
+    color: white; 
+    margin-top: 5%;
+    padding-right: 3%;
+}
+
+
+.skill_percentage li{
+    list-style: none;
+    
+}
+.percentage_div{
+    height: 14px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: gray;
+}
+.frontend_percent{
+    height: 14px;
+    width: 50%;
+    background-color: yellow;
+
+}
+.backend_percent{
+    height: 14px;
+    width: 80%;
+    background-color: yellow;
+
+}
+.database_percent{
+    height: 14px;
+    width: 70%;
+    background-color: yellow;
+
+}
+.webdesign_percent{
+    height: 14px;
+    width: 40%;
+    background-color: yellow;
+
+}
+
+
+
+.skill_experience{
+    color: white;
+    margin-bottom: 10%;
+    margin-right: 30%;
+}
+
+/* ************************************** */
+
+/* Technology */
+
+.technology{
+    background-color: rgb(237, 232, 227)
+   
+}
+.tech_technology{ display: flex;
+    justify-content: space-around;}
+.technology h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3%;
+}
+
+.tech_info{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height:300px;
+   width: 250px;
+   margin-top: 4%;
+   margin-bottom: 3%;
+   padding-left: 2%;
+   border-radius: 5px;
+   box-shadow: 10px 5px,black;
+   border: 2px solid grey;
+}
+
+.tech_info:hover{
+    background-color: #FFA500;
+    height:340px;
+    width: 290px;
+}
+
+.tech_info li{
+    font-size: 18px;
+    font-weight: bold;
+    list-style:square;
+}
+
+
+.tech_database{
+    font-size: 28px;
+    font-weight: bolder;
+}
+/* **************************** */
+.get_in_touch{
+    background-color: #FFA500  
+}
+
+.get_in_touch h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.touch_content{
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 1%;
+    width: 50%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#say_hii{
+    margin-left: 5%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-left: 7px solid white;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
+
+#say_hii:hover{
+    background-color: white;
+    color: black;
+    border-left: 7px solid black;
+    border-bottom: 5px solid black;
+}
+
+/* *******************Education************************* */
+
+.education {
+    background-color: rgb(237, 232, 227);
+    padding-bottom: 3%;
+}
+
+#educationHeading{
+    text-align: center;
+    padding-top: 3%;  
+    font-size: 50px
+}
+
+.major{
+    border: 4px solid black;
+   
+    padding: 3% 4% 3% 4%;
+   
+    margin: 3% 15% 0% 15%;
+    
+}
+
+.major h1{
+    font-size: 40px;
+    color:#513B1C;
+}
+
+.major h5{
+    padding-bottom: 5%;
+    font-size: 20px;
+}
+
+.major p{
+    font-size: 25px;
+}
+/* ******************************* */
+
+/* Connect info */
+
+.connect_us{
+    background-color: black;
+     color:white;
+    }
+.mail{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+#connecting_heading {
+  text-align: center;
+  padding-top: 3%;
+  font-size: 35px;
+}
+.connect_form form {
+    display: flex;
+    flex-direction: column;
+     box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.input_box{
+    /* background-color: yellow; */
+    background-color: black;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 5%;
+    border: none;
+    color: yellow;
+    padding-top: 2%;
+    font-size: 15px;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+
+}
+
+.connect_form form  button{
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: blue;
+    border-left: 7px solid green;
+    border-bottom: 5px solid green;
+    cursor: pointer;
+}
+
+.connect_form form  button:hover{
+    background-color: green;
+    color: blue;
+    border-left: 7px solid yellow;
+    border-bottom: 5px solid yellow;
+    color: wheat;
+}
+
+.connect_form form label{
+    font-size: 25px;
+}
+.connecting_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link a {margin: 10%;}
+
+
+
+
+/* For Mobile Devices – 320px — 480px
+iPads and Tablets – 481px — 768px
+Laptops and small screen – 769px — 1024px
+Large screens and Desktops – 1025px — 1200px
+TV and Extra Large Screens – 1201px and more */
+
+
+/* For Mobile Device: */
+@media only screen and (max-width: 480px) {
+    .photo_intro{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+
+    #humIcon{
+        display: inline;
+    }
+
+    .intro {
+        font-size: 15px;
+    }
+
+    #btn_connect{
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+
+    }
+   
+    #into_firstLine{
+        font-size: 15px; 
+        font-weight: 600
+    }
+
+    #inro_hello{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 30px;
+
+    }
+    
+    #btn_download_csv{display: none;}
+    #btn_download_csv2{
+    background-color: gold;
+    border: none;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 5%;
+    display: block;
+    }
+    #btn_connect2:hover{
+        background-color: rgb(60, 209, 60);
+        color: white;
+    }
+    .heading{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color:rgb(237, 232, 227);
+        overflow-x: hidden;
+        transition: 0.5s;
+        display: none;
+    }
+ nav li{
+        display: block;
+        padding-left: 10%;
+        padding-top: 3%;
+    }
+    #btn_close{
+        display: block;
+        float: right;
+        height: 30px;
+        width: 30px;
+        border: none;
+        position: fixed;
+        float: left;
+        margin-left:60%;
+        background-color: transparent;
+    }
+    /* skills and experience section */
+    .experience_content{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .experice_description li{
+        font-size: 20px;
+    }
+    /* .percentage_div{
+        margin-left: 3%;
+    } */
+    .skill_percentage{
+        padding-left: 3%;
+    }
+    .skill_experience{
+        padding-left: 3%;
+    }
+    .tech_technology{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get_in_touch h1{
+        font-size: 25px;
+    }
+    .get_in_touch p{
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    #educationHeading{
+        font-size: 25px;
+    }
+    .major h1{
+        font-size: 20px;
+        color:#513B1C;
+    }
+    
+    .major h5{
+        padding-bottom: 5%;
+        font-size: 10px;
+    }
+    
+    .major p{
+        font-size: 15px;
+    }
+     .major {
+        border: 1px solid black;
+     }
+     .link{
+        padding-right: 10%;
+     }
+    
+  }
+  @media (min-width:421px) and (max-width:480px) {
+    .skill_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill_percentage{
+        padding-left: 3%;
+        
+    }
+    .skill{
+        padding-left: 3%;
+        display: block;
+        flex-direction: column;
+    }
+
+    .tech_technology{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
+    }
+
+    
+
+
+    #connecting_heading {
+      font-size: 25px;
+    }
+   
+    .input_box{
+        /* background-color: yellow; */
+        height: 30px;
+        width: 100px;
+        margin-bottom: 5%;
+        padding-top: 2%;
+        font-size: 15px;
+        padding-bottom: 2%
+    
+    }
+    
+    .connect_form form  button{
+        height: 40px;
+        width: 100px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .connect_form form  button:hover{
+        border-left: 7px solid yellow;
+        border-bottom: 5px solid yellow;
+    }
+    
+    .connect_form form label{
+        font-size: 20px;
+    }
+    .connecting_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .link{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .link a img {
+        height:30px
+    }
+    .link{
+        justify-content: center;
+    }
+
+
+    
+    
+}
+
+/* iPads and Tablets – 481px — 768px */
+
+@Media(min-width:481px) and (max-width:768px){
+
+    .heading nav li a {
+        font-size: 15px;
+    }
+    #btn_download_csv{
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+    #btn_connect{
+        height: 35px;
+        width: 100px;
+        font-size: 12px;
+    }
+    #into_firstLine{
+        font-size: 18px;
+    }
+    #inro_hello{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .experience_heading h1{
+        font-size: 30px;
+    }
+    .experience_content{
+        font-size: 20px;
+        line-height: 24px;
+        width: 400px;
+    }
+    .experice_description li{
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    .skill {
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .skill_experience{
+        margin-top: 10%;
+    }
+
+    #educationHeading{
+        font-size: 25px;
+    }
+    .major h1{
+        font-size: 25px;
+        color:#513B1C;
+    }
+    
+    .major h5{
+        padding-bottom: 5%;
+        font-size: 10px;
+    }
+    
+    .major p{
+        font-size: 15px;
+    }
+     .major {
+        border: 1px solid black;
+     }
+
+    
+}
+
+/* Dhekna kuchh  bta nhi payega pakka hai at last kuchh back chodi bata ke band krwa dega */
+            
